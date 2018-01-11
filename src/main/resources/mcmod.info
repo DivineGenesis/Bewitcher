@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bewitcher",
+  "name": "Bewitcher",
+  "description": "A Witchery inspired witchcraft mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["§4Burpingdog1", "DrZoddiak"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
