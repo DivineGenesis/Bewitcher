@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.registry.EntityRegistry;
 public class ModEntities {
 
 	public static void registerEntities() {
-		registerEntity("Mandrake", EntityMandrake.class, Reference.ENTITY_MANDRAKE, 50, 555555, 000000);
+		registerEntity("Mandrake", EntityMandrake.class, Reference.ENTITY_MANDRAKE, 8, 555555, 000000);
 	}
 
 	private static void registerEntity(String name, Class<? extends Entity> entity, int id, int range, int color1,

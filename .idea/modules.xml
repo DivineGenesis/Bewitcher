@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bewitcher.iml" filepath="$PROJECT_DIR$/.idea/modules/bewitcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bewitcher_api.iml" filepath="$PROJECT_DIR$/.idea/modules/Bewitcher_api.iml" group="Bewitcher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bewitcher_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bewitcher_main.iml" group="Bewitcher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bewitcher_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bewitcher_test.iml" group="Bewitcher" />
+    </modules>
+  </component>
+</project>

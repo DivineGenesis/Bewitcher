@@ -7,5 +7,5 @@ public class EntityMandrake extends EntityMob {
 
 	public EntityMandrake(World p_i1582_1_) {
 		super(p_i1582_1_);
-	} 
+	}
 }
