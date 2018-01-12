@@ -1,2 +1,9 @@
-item.mandrake_root.name=Mandrake Root
+#Creative Tab
 itemGroup.bewitchertab=Bewitcher
+
+#Items
+item.mandrake_root.name=Mandrake Root
+item.mandrake_seed.name=Mandrake Seed
+
+#Blocks
+tile.mandrake_crop.name=Mandrake Crop
