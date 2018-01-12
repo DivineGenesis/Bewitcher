@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "level=0":    { "model": "bwt:witches_cauldron" },
+    "level=1":     { "model": "bwt:witches_cauldron" },
+    "level=2":     { "model": "bwt:witches_cauldron"},
+    "level=3":   { "model": "bwt:witches_cauldron" }
+  }
+}

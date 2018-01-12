@@ -3,6 +3,7 @@ package com.divinegenesis.bewitcher.objects.blocks;
 import com.divinegenesis.bewitcher.Main;
 import com.divinegenesis.bewitcher.init.ModBlocks;
 import com.divinegenesis.bewitcher.init.ModItems;
+import com.divinegenesis.bewitcher.util.BewitcherTab;
 import com.divinegenesis.bewitcher.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -16,7 +17,7 @@ public class BlockBase extends Block implements IHasModel {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MISC);
+		setCreativeTab(BewitcherTab.bewitchertab);
 
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

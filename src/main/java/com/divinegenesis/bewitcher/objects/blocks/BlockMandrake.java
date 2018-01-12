@@ -6,6 +6,7 @@ import com.divinegenesis.bewitcher.objects.entities.EntityMandrake;
 import com.divinegenesis.bewitcher.init.ModBlocks;
 import com.divinegenesis.bewitcher.init.ModItems;
 import net.minecraft.block.BlockCrops;
+import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.monster.EntitySilverfish;
 import net.minecraft.entity.monster.EntityZombie;

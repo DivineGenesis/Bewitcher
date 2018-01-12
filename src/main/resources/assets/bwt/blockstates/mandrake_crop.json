@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "age=0":    { "model": "oak_bark" },
+    "age=1":     { "model": "oak_bark" },
+    "age=2":     { "model": "oak_bark"},
+    "age=4":   { "model": "oak_bark" },
+    "age=5":    { "model": "oak_bark" },
+    "age=6":     { "model": "oak_bark" },
+    "age=7":     { "model": "oak_bark"}
+  }
+}
