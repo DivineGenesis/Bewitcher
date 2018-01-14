@@ -11,6 +11,9 @@ tile.mandrake_crop.name=Mandrake Crop
 tile.witches_cauldron.name=Witch's Cauldron
 tile.candle.name=Candle
 tile.jar.name=Soul in a Jar
+tile.rack.name=Rack
 
 #Entities
 entity.Mandrake.name=Mandrake
+entity.Soul.name=Soul
+entity.Broom.name=Broom

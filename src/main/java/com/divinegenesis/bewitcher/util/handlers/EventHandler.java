@@ -1,4 +1,4 @@
-package com.divinegenesis.bewitcher.util.handlers;
+package com.divinegenesis.bewitcher.util.Handlers;
 
 import com.divinegenesis.bewitcher.objects.entities.EntitySoul;
 

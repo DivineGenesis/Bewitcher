@@ -1,4 +1,4 @@
-package com.divinegenesis.bewitcher.util.handlers;
+package com.divinegenesis.bewitcher.util.Handlers;
 
 import com.divinegenesis.bewitcher.init.ModBlocks;
 import com.divinegenesis.bewitcher.init.ModEntities;
