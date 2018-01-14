@@ -1,15 +1,18 @@
-package com.divinegenesis.bewitcher.util.Handlers;
+package com.divinegenesis.bewitcher.util.handlers;
 
 import com.divinegenesis.bewitcher.init.ModBlocks;
 import com.divinegenesis.bewitcher.init.ModEntities;
 import com.divinegenesis.bewitcher.init.ModItems;
-import com.divinegenesis.bewitcher.util.IHasModel;
+import com.divinegenesis.bewitcher.util.interfaces.IHasModel;
+import com.divinegenesis.bewitcher.world.gen.WorldGenCustomStructures;
+
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler {
@@ -40,6 +43,7 @@ public class RegistryHandler {
 
 	public static void preInitRegistries() {
 		ModEntities.registerEntities();
+		GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
 	}
 
 }

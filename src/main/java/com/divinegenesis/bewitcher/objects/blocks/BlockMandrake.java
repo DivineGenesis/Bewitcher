@@ -6,10 +6,7 @@ import com.divinegenesis.bewitcher.objects.entities.EntityMandrake;
 import com.divinegenesis.bewitcher.init.ModBlocks;
 import com.divinegenesis.bewitcher.init.ModItems;
 import net.minecraft.block.BlockCrops;
-import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.monster.EntitySilverfish;
-import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.item.Item;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -42,7 +39,7 @@ public class BlockMandrake extends BlockCrops
 		if (isMaxAge(state)& !worldIn.isRemote) {
 			Random rand = new Random();
 			int x = rand.nextInt(100) + 1;
-			if (x <= 75) //25% chance of no mandrake
+			if( (x <= 35 && worldIn.getWorldTime() >= 12500) || (x <= 75 && worldIn.getWorldTime() < 12500))
 			{
 				EntityMandrake mandrake = new EntityMandrake(worldIn);
 				mandrake.setLocationAndAngles(pos.getX(), pos.getY(), pos.getZ(), 159, 62);

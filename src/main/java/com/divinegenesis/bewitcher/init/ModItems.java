@@ -13,4 +13,5 @@ public class ModItems {
 
 	public static final Item MANDRAKE_ROOT = new ItemBase("mandrake_root");
 	public static final Item MANDRAKE_SEED = new ItemMandrakeSeed("mandrake_seed");
+	public static final Item EMPTY_JAR = new ItemMandrakeSeed("empty_jar");
 }

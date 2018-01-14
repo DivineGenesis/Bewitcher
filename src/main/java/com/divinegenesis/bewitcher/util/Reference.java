@@ -10,5 +10,7 @@ public class Reference {
 	public static final String COMMON_PROXY_CLASS = "com.divinegenesis.bewitcher.proxy.CommonProxy";
 
 	public static final int ENTITY_MANDRAKE = 120;
+	public static final int ENTITY_SOUL = 121;
+	public static final int ENTITY_BROOM = 122;
 
 }

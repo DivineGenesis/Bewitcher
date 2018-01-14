@@ -4,7 +4,7 @@ import com.divinegenesis.bewitcher.Main;
 import com.divinegenesis.bewitcher.init.ModBlocks;
 import com.divinegenesis.bewitcher.init.ModItems;
 import com.divinegenesis.bewitcher.util.BewitcherTab;
-import com.divinegenesis.bewitcher.util.IHasModel;
+import com.divinegenesis.bewitcher.util.interfaces.IHasModel;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemSeeds;

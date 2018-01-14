@@ -3,7 +3,8 @@ package com.divinegenesis.bewitcher.objects.items;
 import com.divinegenesis.bewitcher.Main;
 import com.divinegenesis.bewitcher.init.ModItems;
 import com.divinegenesis.bewitcher.util.BewitcherTab;
-import com.divinegenesis.bewitcher.util.IHasModel;
+import com.divinegenesis.bewitcher.util.interfaces.IHasModel;
+
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item implements IHasModel {
