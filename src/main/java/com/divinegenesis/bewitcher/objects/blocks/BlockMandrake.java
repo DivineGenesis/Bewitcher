@@ -35,12 +35,16 @@ public class BlockMandrake extends BlockCrops
 	}
 	
 	@Override
-	public void onBlockDestroyedByPlayer(World worldIn, BlockPos pos, IBlockState state) {
-		if (isMaxAge(state)& !worldIn.isRemote) {
+	public void onBlockDestroyedByPlayer(World worldIn, BlockPos pos, IBlockState state) 
+	{	
+		if (isMaxAge(state) && !worldIn.isRemote) 
+		{
 			Random rand = new Random();
 			int x = rand.nextInt(100) + 1;
+			
 			if( (x <= 35 && worldIn.getWorldTime() >= 12500) || (x <= 75 && worldIn.getWorldTime() < 12500))
 			{
+				
 				EntityMandrake mandrake = new EntityMandrake(worldIn);
 				mandrake.setLocationAndAngles(pos.getX(), pos.getY(), pos.getZ(), 159, 62);
 				worldIn.spawnEntity(mandrake);

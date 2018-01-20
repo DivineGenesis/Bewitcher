@@ -1,6 +1,8 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
+        "0": "blocks/glass",
+        "1": "blocks/planks_oak"
     },
     "elements": [
         {
@@ -9,26 +11,26 @@
             "to": [ 11.0, 7.0, 11.0 ], 
             "shade": false,
             "faces": {
-                "north": { "texture": "#-1", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
-                "east": { "texture": "#-1", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
-                "south": { "texture": "#-1", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
-                "west": { "texture": "#-1", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
-                "up": { "texture": "#-1", "uv": [ 0.0, 0.0, 6.0, 6.0 ] },
-                "down": { "texture": "#-1", "uv": [ 0.0, 0.0, 6.0, 6.0 ] }
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 6.0, 9.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 6.0, 6.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 6.0, 6.0 ] }
             }
         },
         {
-            "name": "Cube",
+            "name": "top",
             "from": [ 6.0, 7.0, 6.0 ], 
             "to": [ 10.0, 8.0, 10.0 ], 
             "shade": false,
             "faces": {
-                "north": { "texture": "#-1", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-                "east": { "texture": "#-1", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-                "south": { "texture": "#-1", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-                "west": { "texture": "#-1", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-                "up": { "texture": "#-1", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
-                "down": { "texture": "#-1", "uv": [ 0.0, 0.0, 4.0, 4.0 ] }
+                "north": { "texture": "#1", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 4.0, 4.0 ] }
             }
         }
     ]
